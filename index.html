@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>FCC: Product landing</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header id="header">
+        <a href="#" id="home">
+            <img alt="Chess Logo" id="header-img" src="https://www.svgrepo.com/show/23964/horse-head-with-hair-outline.svg">
+            Chessboard
+        </a>
+
+        <div data-target="nav-bar" data-toggle="collapse" id="navbar-toggle"
+             onclick="menu()" type="button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <nav class="navbar-collapse" id="nav-bar">
+            <ul id="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+                <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#form">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header id="title">
+            <h1>Chessboard</h1>
+        </header>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo cumque voluptas totam minima sapiente, dolore nesciunt reiciendis dolorum nemo sint quas reprehenderit alias. Fugiat natus dolores sequi sapiente dolore. Impedit?</p>
+        
+
+        <section id="features">
+            <header>
+                <h2>Features</h2>
+            </header>
+            <ul>
+                <li>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas voluptatem tempore aspernatur eius nobis ad incidunt praesentium corporis ab debitis! Qui perferendis voluptatum voluptatibus nesciunt odit tempore quidem! Eligendi, corporis?</p>
+                </li>
+                <li>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, impedit aperiam? Consectetur, dolore officiis commodi, minus maiores enim repellat ipsum ullam illo magnam at dicta eaque omnis, nemo corporis cum.</p>
+                </li>
+                <li>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis ratione doloremque optio, reiciendis totam atque minus facere omnis enim reprehenderit? Magni ipsam ratione iusto nulla consectetur animi perferendis suscipit maiores?</p>
+                </li>
+            </ul>
+        </section>
+
+        <iframe id='video' src="https://www.youtube.com/embed/Eh5CpGIwmag" title="YouTube video player">
+        </iframe>
+
+        <section id="products">
+            <header>
+                <h2>Products</h2>
+            </header>
+
+            <div class="cards">
+                <div class="card_product">
+                    <header class="title-product">
+                        <h3>Basic Chessboard</h3>
+                    </header>
+                    <img src="https://cdn.shopify.com/s/files/1/1297/3303/products/basic-starter-chess-set-combo-28292352475223_grande.jpg?v=1628339629" alt="Basic Chessboard"  class="img-product">
+                    <p class="price">$20.00</p>
+                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae doloremque perferendis sint porro dignissimos ex enim, cum fugit possimus, quia temporibus? Similique ipsa porro iste tempore officia nemo. Nisi, veniam.</p>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="card_product">
+                    <header class="title-product">
+                        <h3>Wood Chessboard</h3>
+                    </header>
+                    <img src="https://lzd-img-global.slatic.net/g/p/724a18685fbc9c951dabc7e21dfb5780.jpg_2200x2200q80.jpg_.webp" alt="Wood Chessboard" class="img-product">
+                    <p class="price">$60.00</p>
+                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae doloremque perferendis sint porro dignissimos ex enim, cum fugit possimus, quia temporibus? Similique ipsa porro iste tempore officia nemo. Nisi, veniam.</p>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="card_product">
+                    <header class="title-product">
+                        <h3>Luxury Chessboard</h3>
+                    </header>
+                    <img src="https://m.media-amazon.com/images/I/61FdNG7DaNS._AC_SX569_.jpg" alt="Luxury Chessboard" class="img-product">
+                    <p class="price">$300.00</p>
+                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae doloremque perferendis sint porro dignissimos ex enim, cum fugit possimus, quia temporibus? Similique ipsa porro iste tempore officia nemo. Nisi, veniam.</p>
+                    <button class="btn">Select</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="subscribe">
+            <header>
+                <h2>Subscribe</h2>
+            </header>
+            <p class="form-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At qui, inventore, officiis veniam ratione officia quos eius debitis quidem dignissimos ab aperiam adipisci suscipit nemo molestiae nobis recusandae. In, labore?</p>
+            <form id="form" action="#">
+                <label id="email-label" for="email">
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </label>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <p class="copy">
+            &copy; 2022, Chessboard
+        </p>
+        <p class="footer-links">
+            <a href="#">Privacy</a> |
+            <a href="#">Terms</a> |
+            <a href="#">Contact</a>
+        </p>
+    </footer>
+</body>
+</html>

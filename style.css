@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
+    text-align: center;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    min-height: 65px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    background-color: #ababab;
+    color: white;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 2vh 2vw;
+
+    font-size: 2em;
+}
+
+#header-img {
+    width: 50px;
+    height: 50px;
+}
+
+#nav-bar {
+    width: 100%;
+}
+
+#navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-toggle{
+    padding: 0 2vw;
+    cursor: pointer;
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: white;;
+    margin: 6px 0;
+}
+
+.navbar-collapse {
+    display: none;
+}
+
+.collapse {
+    display: block;
+}
+
+.nav-item {
+    width: 96%;
+    padding: 0 2%;
+    margin: 0.01vh 0;
+    border-bottom: white solid 0.001vh;
+}
+
+.nav-item:first-of-type {
+    border-top: white solid 0.001vh;
+}
+
+.nav-item:hover {
+    background-color: #9a9a9a;
+    cursor: pointer;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #eee;
+    display: block;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+main {
+    margin-top: 80px;
+    padding: 0 2vw;
+}
+
+#title {
+    text-align: center;
+}
+
+#video {
+    display: block;
+    max-width: 560px;
+    max-height: 315px;
+    width: 80vw;
+    height: 30vh;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: rgba(0, 0, 0, 50%) 1px solid;
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em 5px gray;
+
+    margin-bottom: 5px;
+}
+
+.title-product{
+    background-color: #ababab;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px;
+}
+
+.img-product {
+    display: block;
+    width: 60%;
+}
+
+.price {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description {
+    width: 60%;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 60%;
+    margin-bottom: 15px;
+
+    font-size: 1.1em;
+    color: white;
+
+    background-color: limegreen;
+    border-radius: 5px;
+    border-color: limegreen;
+}
+
+#subscribe {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-description {
+    width: 80%;
+}
+
+#form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#email-label {
+    display: flex;
+    margin: 15px 0;
+}
+
+#email{
+    width: 100%;
+    font-size: 1.1em;
+}
+
+#submit {
+    font-size: 1.1em;
+    color: white;
+
+    background-color: limegreen;
+    border-radius: 5px;
+    border-color: limegreen;
+
+    margin-bottom: 15px;
+}
+
+#footer {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ababab;
+    color: white;
+}
+
+.footer-links {
+    font-size: 0.7em;
+    margin: 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For Tablets: */
+    #video {
+        height: 60vh;
+    }
+
+    #subscribe {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For Desktop: */
+    #header {
+        flex-wrap: nowrap;
+        height: 65px;
+    }
+
+    #navbar-toggle {
+        display: none;
+    }
+
+    #nav-bar{
+        display: block;
+        height: 100%;
+        width: 60%;
+    }
+
+    #navbar-nav {
+        display: flex;
+        height: 100%;
+    }
+
+    .nav-item{
+        height: 100%;
+        border: none !important;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1.3em;
+    }
+
+    .cards {
+        flex-direction: row;
+    }
+
+    .card_product {
+        margin: 0 20px 0;
+    }
+
+    .img-product {
+        height: 40%;
+    }
+
+    #subscribe {
+        width: 60%;
+    }
+}
