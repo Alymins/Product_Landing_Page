@@ -7,8 +7,8 @@ Este é um projeto proposto pela freeCodeCamp no curso de Responsive Web Design.
 apresentar o produto
 
 <div>
-    <img align="left" width="65%" height="750" src="img/FCC-Product-landing.png" alt="Product Landing">
-    <img width="30%" height="750" src="img/FCC-Product-landing-Mobile.png" alt="Product Landing mobile">
+    <img align="left" width="65%" height="1250" src="img/FCC-Product-landing.png" alt="Product Landing">
+    <img width="30%" height="1250" src="img/FCC-Product-landing-Mobile.png" alt="Product Landing mobile">
 </div>
 
 # Tecnologias Utilizadas
